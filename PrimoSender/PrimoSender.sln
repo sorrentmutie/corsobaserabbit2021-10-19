@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimoSender", "PrimoSender\PrimoSender.csproj", "{2F95E987-59D7-4704-9334-C08E5212BF8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimoReceiver", "PrimoReceiver\PrimoReceiver.csproj", "{31CC1944-3F15-4382-A6E2-53435449A234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "..\EmitLog\EmitLog.csproj", "{D9C73267-7D5F-4672-BC19-07C0D3D9F567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogs", "..\ReceiveLogs\ReceiveLogs.csproj", "{3612EC8D-ACE2-48A3-9AD8-C0FF617C761B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F95E987-59D7-4704-9334-C08E5212BF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F95E987-59D7-4704-9334-C08E5212BF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F95E987-59D7-4704-9334-C08E5212BF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F95E987-59D7-4704-9334-C08E5212BF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CC1944-3F15-4382-A6E2-53435449A234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CC1944-3F15-4382-A6E2-53435449A234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CC1944-3F15-4382-A6E2-53435449A234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CC1944-3F15-4382-A6E2-53435449A234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C73267-7D5F-4672-BC19-07C0D3D9F567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C73267-7D5F-4672-BC19-07C0D3D9F567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C73267-7D5F-4672-BC19-07C0D3D9F567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C73267-7D5F-4672-BC19-07C0D3D9F567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3612EC8D-ACE2-48A3-9AD8-C0FF617C761B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3612EC8D-ACE2-48A3-9AD8-C0FF617C761B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3612EC8D-ACE2-48A3-9AD8-C0FF617C761B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3612EC8D-ACE2-48A3-9AD8-C0FF617C761B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {145BC805-DDEE-4B27-8221-235CD0BD5FFF}
+	EndGlobalSection
+EndGlobal
